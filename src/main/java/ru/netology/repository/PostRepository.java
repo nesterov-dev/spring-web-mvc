@@ -1,7 +1,7 @@
-package repository;
+package ru.netology.repository;
 
-import exception.NotFoundException;
-import model.Post;
+import ru.netology.exception.NotFoundException;
+import ru.netology.model.Post;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

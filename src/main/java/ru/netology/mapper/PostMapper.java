@@ -1,7 +1,7 @@
-package mapper;
+package ru.netology.mapper;
 
-import model.Post;
-import model.PostDTO;
+import ru.netology.model.Post;
+import ru.netology.model.PostDTO;
 import org.mapstruct.Mapper;
 
 @Mapper (componentModel = "spring")

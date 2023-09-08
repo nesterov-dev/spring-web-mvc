@@ -1,10 +1,10 @@
-package service;
+package ru.netology.service;
 
-import exception.NotFoundException;
-import mapper.PostMapper;
-import model.Post;
-import model.PostDTO;
-import repository.PostRepository;
+import ru.netology.exception.NotFoundException;
+import ru.netology.mapper.PostMapper;
+import ru.netology.model.Post;
+import ru.netology.model.PostDTO;
+import ru.netology.repository.PostRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
